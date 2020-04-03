@@ -27,6 +27,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
    const name=agent.parameters.name;
    const phono=agent.parameters.phono;
    const email=agent.parameters.email;
+   // use service account creds
     await doc.useServiceAccountAuth({
          client_email:"your google service account id",
          private_key: "your account private key,
