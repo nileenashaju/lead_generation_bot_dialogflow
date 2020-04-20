@@ -1,2 +1,2 @@
-Lead Generation Bot created by Dialogflow\n
-        This code is used to connect agent with Google spread Sheet
+
+        This code is used to connect Dialogflow agent with Google spread Sheet
