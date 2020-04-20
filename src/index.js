@@ -36,11 +36,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     await doc.loadInfo(); // loads document properties and worksheets
     const sheet = doc.sheetsByIndex[0];
     const larryRow = await sheet.addRow({ name: name, phono: phono,email: email});  
- 
-    
   }
-
- 
   // // See https://github.com/dialogflow/fulfillment-actions-library-nodejs
   // // for a complete Dialogflow fulfillment library Actions on Google client library v2 integration sample
 
